@@ -1,0 +1,16 @@
+main: "jp.jyn.chestsafe_converter.Main"
+name: "ChestSafe-Converter"
+version: "${project.version}"
+website: "https://github.com/HimaJyun/ChestSafe-Converter"
+author: "HimaJyun( https://jyn.jp/ )"
+depend: ["ChestSafe"]
+softdepend: ["LWC"]
+api-version: 1.13
+
+commands:
+    chestsafe-convert:
+        description: "ChestSafe database convert."
+
+permissions:
+    chestsafe.convert:
+        description: op
